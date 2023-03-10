@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+
+    <!-- когато попълним формата и натиснем отдолу бутона submit, ще ни препрати към страницата submitted -->
+    <!-- метода към момента ще го оставим GET, а не POST -->
+    <form action="submitted.html" method="GET">
+        <!-- слагам ги в отделни div-ове, за да могат да дойдат на различни редове, а не едно до друго. Понеже това са inline елементи, които се наместват един под друг, ги групираме чрез div-->
+        <div>
+            <!-- чрез for и id ние създаваме връзка между label и input и те ще работят заедно -->
+            <!-- за name ще прочетеш по-надолу, но е важно да го има ппц -->
+            <label for="username">Username</label>
+            <input id="username" type="text" name="username">
+        </div>
+
+        <div>
+            <!-- чрез type="password" когато пишем в полето, ще ми се кодира с точки -->
+            <label for="password">Pass</label>
+            <input id="password" type="password" name="pass">
+        </div>
+
+        <div>
+            <!-- чрез type="radio" ние можем да имаме една единствена опция за избиране. За това трябва да добавим name="" с еднакво име в кавичките. name не само казва, какво е името на напие елемент, това име също се взима за име на нашата променлива. Когато ние изпращаме данните си ние ще изпратим нещо със ст-ст примерно de и с името на нашата променлива location.  -->
+            <h2>Select a location</h2>
+            <label for="de">Germany</label>
+            <input id="de" type="radio" value="de" name="location">
+            <label for="bg">Bulgaria</label>
+            <input id="bg" type="radio" value="bg" name="location">
+            <label for="fe">France</label>
+            <input id="fe" type="radio" value="fe" name="location">
+        </div>
+
+        <div>
+            <h2>Select a car</h2>
+            <!-- с type="checkbox" можем да избираме множество опции и всяка опция трябва да има стойност, за това пишем value. Чрез value самият чекбокс ще си има свое име примерно AUDI.  -->
+            <!-- тук в type="checkbox" добавяме и name, но name трябва да е еднакъв. -->
+            <label for="volvo">Volvo</label>
+            <input id="volvo" type="checkbox" value="VOLVO" name="brand">
+            <label for="audi">Audi</label>
+            <input id="audi" type="checkbox" value="AUDI" name="brand">
+            <label for="bmw">BMW</label>
+            <input id="bmw" type="checkbox" value="BMV" name="brand">
+        </div>
+
+        <!-- когато натиснем Submit, ако не сме казали на къде да отива този бутон (или да му зададем някакъв action) след като сме го натиснали, то страницата прави rerender (рефрешва се). И ако нямаме дефиниран action, ще ни се промени URL-а. URL-а ще има следния вид name=value. Реално и това е идеята на GET. GET е когато ние взимаме данни от нашия сървър, а POST е когато изпращаме и запазваме нови данни в сървъра.  -->
+        <button>Submit</button>
+        
+        <!-- поиграй си и с долните видове форми -->
+        <div>
+            <fieldset></fieldset>
+        </div>
+        
+        <!-- падащо меню -->
+        <div>
+            <select></select>
+        </div>
+
+        <!-- когато искаме да пишем повече текст -->
+        <div>
+            <label for="msg">Message</label>
+            <textarea name="" id="msg" cols="30" rows="10"></textarea>
+        </div>
+
+        <!-- поиграй си и със следните бутони. 3те бутона визуално са идентични, но реално не са. Използвай button вместо input type за reset и submit, защото примерно ти там не можеш да си болдваш както в примера долу съм болднал. В Button елемента можеш да вкараш всичко, имаш много повече опции. Вътре в button имаш няколко type-a: Reset-просто ресетва стойностите във формата, Normal-за сега нищо не прави, чак като вкараш JS ще прави.-->
+        <button>Apply <b>now</b></button>
+        <input type="submit", value="Apply now">
+        <input type="reset">
+        <button type="button">Click me</button>
+            
+    </form>
+</body>
+</html>

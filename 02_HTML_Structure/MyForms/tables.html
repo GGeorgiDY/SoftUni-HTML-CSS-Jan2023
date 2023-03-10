@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Table Example Page</h1>
+
+    <table border="1">
+        <tr>
+            <td>Name</td>
+            <td>Exp</td>
+            <td>Location</td>
+        </tr>
+        <tr>
+            <td>Simo</td>
+            <td>5</td>
+            <td>BG</td>    
+        </tr>
+        <tr>
+            <td>Ivan</td>
+            <td>12</td>
+            <td>EN</td>    
+        </tr>
+    </table>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <!-- th означава първия ред да ти е header (одебелен) -->
+            <th>Name</th>
+            <th>Exp</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Simo</td>
+            <td>5</td>
+            <td>BG</td>    
+        </tr>
+        <tr>
+            <td>Ivan</td>
+            <td>12</td>
+            <td>EN</td>    
+        </tr>
+    </table>
+
+    <br>
+
+    <table border="1">
+
+        <!-- thead tbody и tfoot е хубаво да използваме когато искаме да разделим нашата таблица на три части -->
+        <thead>
+            <tr>
+                <!-- th означава първия ред да ти е header (одебелен) -->
+                <th>Name</th>
+                <th>Exp</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Exp</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Simo</td>
+                <td>5</td>
+                <td>BG</td>    
+            </tr>
+            <tr>
+                <td>Ivan</td>
+                <td>12</td>
+                <td>EN</td>    
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>-</td>
+                <td>*</td>
+                <td>12</td>    
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <br>
+
+    <table border="2">
+        <!-- с colspan казваме върху колко клетки искаме нашата клетка да се разпростре -->
+        <tr>
+            <th colspan="2">Animals</th>
+        </tr>
+        <tr>
+            <th>Hippopotamus</th>
+        </tr>
+        <tr>
+            <th>Horse</th>
+            <th>Mare</th>
+        </tr>
+    </table>
+
+</body>
+</html>

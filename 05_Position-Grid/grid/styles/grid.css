@@ -1,0 +1,8 @@
+.cards{
+    display: grid;
+    /* задаваме колко колони да има */
+    grid-template-columns: repeat(3, 1fr);
+    /* задаваме отстояние между колоните */
+    grid-template-rows: repeat(3, 200px);
+    gap: 16px;
+}

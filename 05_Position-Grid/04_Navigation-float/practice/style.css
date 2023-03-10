@@ -1,0 +1,129 @@
+body{
+    background-color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 80px;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: 40px 5px auto;
+    grid-template-areas: 
+        'head-t head-n'
+        'line line'
+        'main aside';
+    row-gap: 10px;
+    column-gap: 60px;
+    font-size: 1rem;
+    }
+
+header{
+    display: inline-block;
+}
+
+.head-title{
+    display: inline-block;
+    grid-area: head-t;
+    position: absolute;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.head-nav{
+    display: inline-block;
+    grid-area: head-n;
+    position: absolute;
+    right: 10px;
+    margin: 0px 80px 0 0;
+    font-size: 0.8rem;
+    padding: 0;
+}
+
+.head-nav li{
+    display: inline-block;
+}
+
+.head-nav a{
+    display: inline-block;
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 0.8rem;
+}
+
+main{
+    grid-area: main;
+    font-size: 1em;
+}
+
+.section1 h1{
+    display: block;
+    font-size: 1.7em;
+}
+
+.section1 p{
+    margin: 20px 0 20px 0;
+}
+
+.section1 img{
+    display: block;
+    float: right;
+    margin: 20px 0 6px 20px;
+}
+
+img{
+    border: 2px solid black;
+    padding: 6px;
+    background-color: white;
+    box-shadow: rgb(15, 1, 1); 
+}
+
+.section2 p{
+    margin: 20px 0 20px 0;
+}
+
+.left-part{
+    display: inline-block;
+    width: 45%;
+    padding-right: 4%;
+    border-right: 2px solid gray;
+}
+
+.right-part{
+    display: inline-block;
+    width: 45%;
+    padding-left: 4%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: gray;
+    vertical-align: top;
+}
+
+.author-name{
+    position: absolute;
+    right: 45%;
+}
+
+.section3 p{
+    margin: 20px 0 20px 0;
+}
+
+.section3 img{
+    display: block;
+    float: left;
+    margin: 20px 20px 0 0;
+}
+
+.line{
+    border-top: 3px solid black;
+    grid-area: line;
+}
+
+aside{
+    grid-area: aside;
+}
+
+ul{
+    color: rgb(0, 102, 0);
+}
+
+/* aside li{
+    color: red;
+} */

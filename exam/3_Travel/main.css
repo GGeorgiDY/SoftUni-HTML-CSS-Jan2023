@@ -1,0 +1,186 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 400px;
+    object-fit: cover;
+}
+
+header .first{
+    padding: 30px 200px 10px 200px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: sticky;
+    top: 0px;
+}
+
+header .first nav {
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+header .first nav ul {
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+}
+
+header .first nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+header .first nav ul .explore{
+    border: none;
+    background-color: black;
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+}
+
+header .first nav ul .explore a{
+    color: white;
+}
+
+header .second{
+    padding-left: 200px;
+    margin-top: 50px;
+}
+
+header .second h1{
+    font-size: 45px;
+}
+
+header .second .big_paragraph{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+header .second .explore{
+    background-color: black;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 130px;
+    list-style-type: none;
+    margin-left: -45px;
+}
+
+header .second .explore a{
+    color: white;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+main h2{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+main p{
+    text-align: center;
+}
+
+main section{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+main section article{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section article img{
+    width: 300px;
+    height: 300px;
+}
+
+main section article h3{
+    padding: 10px 0px
+}
+
+main section article p{
+    text-indent: 10px;
+}
+
+main section article ul{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+main section article ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+/* FOOTER   */
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 200px 10px 200px;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .travel{
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 100px;
+    margin-left: 200px;
+}
+
+footer .first_info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer .second_info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer .last{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+footer .last ul{
+    display: flex;
+    gap: 20px;
+}
+
+footer .last ul li a{
+    color: white;
+}

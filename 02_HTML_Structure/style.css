@@ -1,0 +1,11 @@
+/* това е демо файл */
+
+/* така селектираме абсолютно всеки html елемент в html кода */
+div p {
+background-color: red;
+}
+
+#cars {
+    background-color: gray;
+}
+

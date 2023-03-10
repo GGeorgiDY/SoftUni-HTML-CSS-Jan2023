@@ -1,0 +1,68 @@
+:root {
+    --background-color-card: #f7f7f7;
+    --background-color-btn: #a4C636;
+    --color-btn: #fff;
+    --color-text: #747474;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.title__two, 
+.paragraph {
+    color: var(--color-text);
+    font-weight: inherit;
+
+}
+
+.title__one span {
+    color: var(--background-color-btn);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 4rem;
+}
+
+.cardOne,
+.cardTwo,
+.cardThree {
+    background-color: var(--background-color-card);
+    width: 20vw;
+}
+
+.cardOne__content,
+.cardTwo__content,
+.cardThree__content {
+    padding: 1rem;
+}
+
+.cardOne h2,
+.cardTwo h2,
+.cardThree h2 {
+    padding-bottom: 1rem;
+}
+
+.paragraph {
+    font-size: 14px;
+    line-height: 1.8;
+    padding-bottom: 1rem;
+}
+
+.cardOne button,
+.cardTwo button,
+.cardThree button {
+    background-color: var(--background-color-btn);
+    color: var(--color-btn);
+    padding: 8px 24px;
+    border-radius: 24px;
+    border: none;
+}

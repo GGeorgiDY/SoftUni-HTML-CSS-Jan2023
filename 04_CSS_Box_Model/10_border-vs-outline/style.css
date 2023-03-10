@@ -1,0 +1,15 @@
+.border {
+    /* Разлика между border и outline
+    Outline-a се залепя над border-a.
+    border-а променя размера на нашия елемент - той се включва и колкулира в неговите размери в зависимост дали имаме box-sizing, content или border, а outline е само визуален. Border има border radius, а outline няма. Outline обаче има outline-offset, който позволява да местим outline-a по-долеч от border-a*/
+    border: 2px solid red;
+    outline: 2px solid blue;
+    border-radius: 10px;
+}
+
+.outline {
+    border: 2px solid red;
+    outline: 2px solid blue;
+    outline-offset: 5px;
+    /* този outline-offset може и да е отрицателен  */
+}

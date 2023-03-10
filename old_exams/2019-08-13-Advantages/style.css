@@ -1,0 +1,50 @@
+:root {
+    --background-color: #F4F5F7;
+    --background-color-btn: #42abf8;
+    --background-color-check: #23BE5E;
+    --color: #fff;
+  }
+  
+  section {
+    font-family: 'Lato', sans-serif;
+    width: 60vw;
+    margin: 20px auto;
+  }
+  
+  section button {
+    background-color: var(--background-color-btn);
+    color: var(--color);
+    padding: 6px 22px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin-left: 42.59rem;
+  }
+  
+  .table {
+    background-color: var(--background-color);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .table li {
+    padding: 15px;
+    border-bottom: 2px solid var(--color);
+    position: relative;
+  }
+  
+  .table li:nth-child(2),
+  .table li:nth-child(6) {
+    border-bottom: none;
+  }
+  
+  i {
+    padding: 3px 3px;
+    border-radius: 100%;
+    background: #EEEEEE;
+    color: var(--color);
+    background-color: var(--background-color-check);
+    position: absolute;
+    right: 5%;
+  }

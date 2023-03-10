@@ -1,0 +1,35 @@
+/* TODO: style the html */
+
+body {
+    /* Font: Helvetica */
+    font-family: Helvetica, sans-serif;
+    /* Height of the line: 1.5 */
+    line-height: 1.5;
+    /* Font size: 18px */
+    font-size: 18px;
+    /* Background color: white */
+    background-color: white;
+  }
+  
+  article {
+    /* Margins: 54px */
+    margin: 54px;
+    /* Paddings: 36px */
+    padding: 36px;
+    /* Set the border radius to 16px */
+    border-radius: 16px;
+    /* Text color: white */
+    color: white;
+    /* Indent text in the first line 40px */
+    text-indent: 40px;
+    /* Background color: rgb(51, 102, 153) */
+    background-color: rgb(51, 102, 153);
+  }
+  
+  h1 {
+    font-family: Georgia, serif;
+  }
+  
+  p {
+    text-align: left;
+  }

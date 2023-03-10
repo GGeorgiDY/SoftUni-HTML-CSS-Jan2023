@@ -1,0 +1,73 @@
+:root {
+    --background-color-btn: #03A87C;
+    --background-color-span: #CEFDE9;
+    --color-btn: #fff;
+    --color-text: #92877A;
+    --color-heading: #292929;
+}
+
+body {
+    color: var(--color-text);
+    font-family: Helvetica, sans-serif;
+}
+
+h1,
+h4 {
+    color: var(--color-heading);
+    font-family: Georgia, serif;
+    margin-bottom: -4px;
+}
+
+header {
+    margin: 2rem 0rem;
+    margin-left: 16.5rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: var(--background-color-btn);
+    color: var(--color-btn);
+    padding: 12px 46px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 190px;
+}
+
+.content {
+    width: 50%;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    line-height: 1.5;
+}
+
+span {
+    background-color: var(--background-color-span);
+}
+
+
+/* това поставя долната черта посредата */
+.content::after {
+    content: "";
+    width: 80%;
+    height: 1px;
+    background: var(--color-text);
+    display: block;
+    margin: 40px;
+    margin-left: -200px;
+}

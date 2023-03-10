@@ -1,0 +1,21 @@
+body{
+    background-color: green;
+    margin-left: 20px;
+}
+
+header{
+    background-color: green;
+    border: 1px solid #b2ad7d;
+    text-align: center;
+    padding: 0%; 
+}
+
+main{
+    background-color: rgb(193, 199, 184);
+    border: 1px solid #b2ad7d;
+}
+
+footer{
+    background-color: green;
+    border: 1px solid #b2ad7d;
+}

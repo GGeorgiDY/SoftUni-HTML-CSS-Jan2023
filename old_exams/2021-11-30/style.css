@@ -1,0 +1,62 @@
+:root {
+    --background-color: #F6F8F9;
+    --background-color-btn: #786DFE;
+    --color-form: #727C86;
+    --color-title: #333E4B;
+    --color-btn: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    width: 70vw;
+    background-color: var(--background-color);
+    border-radius: 14px;
+    color: var(--color-form);
+}
+
+.card__content {
+    padding: 3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title {
+    color: var(--color-title);
+}
+
+.title h1 {
+    font-size: 38px;
+    font-weight: 100;
+    margin-top: -1rem;
+}
+
+.paragraph {
+    letter-spacing: 1px;
+}
+
+.btn__furst {
+    background-color: var(--background-color-btn);
+    color: var(--color-btn);
+    padding:10px 26px;
+    margin-right: 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--background-color-btn);
+    letter-spacing: 1px;
+}
+
+.btn__second {
+    color: var(--color-title);
+    padding:10px 26px;
+    border-radius: 4px;
+    border: 1px solid var(--color-title);
+    letter-spacing: 1px;
+}

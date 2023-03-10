@@ -1,0 +1,125 @@
+:root {
+    --background-color-body: #e9e9e9;
+    --color-card__img: #fff;
+    --color-form: #c5c4c4;
+    --color-box-shadow: #afa3a3;
+    --background-color-form: #fafafa;
+    --background-color-btn: rgb(8, 8, 8);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--background-color-body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    color: var(--color-form);
+    background-color: var(--background-color-form);
+    width: 50vw;
+    box-shadow: 4px 3px 12px var(--color-box-shadow);
+}
+
+.card__img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.card__img,
+.card__content {
+    width: 350px;
+    height: 400px;
+}
+
+.card__img {
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h6,
+.card__img div {
+    color: var(--color-card__img);
+    position: absolute;
+}
+
+h6 {
+    top: 0px;
+    left: 30px;
+}
+
+.card__img div h1 {
+    font-size: 18px;
+    font-weight: inherit;
+}
+
+.card__img div p {
+    font-size: 10px;
+    font-weight: inherit;
+}
+
+.card__img div {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer > a {
+    color: var(--color-card__img);
+    padding-right: 6px;
+}
+
+.card__content form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+}
+
+form {
+    font-size: small; 
+}
+
+.card__content > form > input {
+    border: none;
+    background-color: var(--background-color-form);
+    border-bottom: 1px solid var(--color-form);
+}
+
+.card__footer .btn {
+    color: var(--color-card__img);
+    background-color: var(--background-color-btn);
+    border-radius: 16px;
+    padding: 5px 24px;
+    margin-right: 8px;
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+.card__footer a {
+    align-items: center;
+    color: var(--color-form);
+}

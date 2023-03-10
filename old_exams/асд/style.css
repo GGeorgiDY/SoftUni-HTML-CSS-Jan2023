@@ -1,0 +1,57 @@
+body{
+    padding-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    text-align: center;
+}
+
+.title .title__one span{
+    color: #A4c636
+}
+
+.title .title__two{
+    color: #747474
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    gap: 1.5rem;
+}
+
+.cardOne, .cardTwo, .cardThree{
+    width: 20vw;
+    background-color: #f7f7f7;
+}
+
+.cardOne .cardOne__content{
+    padding: 16px 12px;
+}
+
+.cardTwo .cardTwo__content{
+    padding: 16px 12px;
+}
+
+.cardThree .cardThree__content{
+    padding: 16px 12px;
+}
+
+p{
+    color: #747474;
+    padding: 16px 0px;
+    line-height: 1.8;
+    font-weight: inherit;
+    font-size: 14px;
+}
+
+button{
+    background-color: #A4c636;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 24px;
+    border: none;
+}

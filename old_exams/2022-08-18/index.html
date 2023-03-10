@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet" /> -->
+</head>
+
+<body>
+    <img class="backgroundImg" src="images/background.png" alt="">
+    <div class="container">
+
+        <form class="form">
+            <h2 class="form__title">Registration Form</h2>
+
+            <div class="form__info">
+                <div class="form__name">
+                    <label class="form__firstName" for="firstName">First Name</label>
+                    <input class="form__firstInput" type="text" name="firstName">
+                </div>
+                <div class="form__name">
+                    <label class="form__secondName" for="lastName">Last Name</label>
+                    <input class="form__secondInput" type="text" name="lastName">
+                </div>
+            </div>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" name="confirmPassword" id="confirmPassword">
+
+            <div class="form__checkbox">
+                <div>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                </div>
+                <div>
+                    <label for="checkbox">I accept the Terms of Use & Privacy Policy.</label>
+                </div>
+            </div>
+
+            <button class="form__submit">Register Now</button>
+        
+        </form>
+    </div>
+</body>
+
+</html>

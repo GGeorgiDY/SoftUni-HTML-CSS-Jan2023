@@ -1,0 +1,22 @@
+img{
+    width: 300px;
+    /* правим така че снимката да плува около текста */
+    float: right;
+    margin: left;
+}
+
+/* чрез това показваме как се е счупила страницата */
+.float-container{
+    border: 3px dashed black;
+}
+
+
+/* с това правим така че страницата да не е счупена */
+.clearfix{
+    overflow: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}

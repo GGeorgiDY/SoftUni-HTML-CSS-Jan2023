@@ -1,0 +1,42 @@
+/* тук ще определяме кой елемент къде точно да отива в страницата ни*/
+
+.grid-container{
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: repeat(6, 100px);
+  /* тук трябва да пишеш "" за всеки нов ред. Тук всичко което запишеш като бройка трябва да съзвпада с броя на колоните и редовете които имаш */
+  grid-template-areas: 
+  "head head head head head head"
+  "side . content content content content"
+  "side . content content content content"
+  "side . content content content content"
+  "side . content content content content"
+  "foot foot foot foot foot foot";
+}
+
+.header{
+  background-color: red;
+  grid-area: head;
+}
+
+.sidebar{
+  background-color: lightcoral;
+  grid-area: side;
+}
+
+.content{
+  background-color: lightblue;
+  grid-area: content;
+}
+
+.footer{
+  background-color: lightgreen;
+  grid-area: foot;
+}
+
+
+/* всички div които са в моя grid-container контейнер */
+.grid-container div{
+
+}

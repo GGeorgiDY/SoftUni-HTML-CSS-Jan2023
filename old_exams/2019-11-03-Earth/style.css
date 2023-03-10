@@ -1,0 +1,61 @@
+:root {
+    --background-color-header: #001216;
+    --background-color-footer: #D9EBEB;
+    --color-header: #16EBE2;
+    --color-text-header: #fff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header,
+.footer__header {
+    background-color: var(--background-color-header);
+    letter-spacing: 2.2px;
+    font-weight: inherit;
+    padding: 10px;
+}
+
+.header__one {
+    color: var(--color-header);
+    font-size: 40px;
+}
+
+.header__two,
+.footer__header {
+    color: var(--color-text-header);
+}
+
+/* main {
+    width: 700px;
+    height: 350px;
+} */
+
+.content {
+    display: flex;
+    padding: 30px;
+    gap: 10px;
+}
+
+.content__one {
+    border: 1px solid var(--background-color-header);
+    padding: 5px 15px;
+}
+
+.content__one p {
+    margin-top: 5px;
+}
+
+.footer__header {
+    display: inline-block;
+}
+
+.footer__content {
+    background-color: var(--background-color-footer);
+    letter-spacing: 2.2px;
+}
+
+.footer__content span {
+    font-weight: bold;
+}

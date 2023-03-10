@@ -1,0 +1,24 @@
+body {
+    background-color: #EEEEEE;
+}
+
+.page-wrapper {
+    max-width: 1300px;
+    margin: 70px auto;
+}
+
+li {
+    max-width: 300px;
+    margin: 16px;
+    padding: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    border-width: .4rem;
+    border-color: black;
+    border-style: solid;
+}
+
+li img {
+    width: 100%;
+}

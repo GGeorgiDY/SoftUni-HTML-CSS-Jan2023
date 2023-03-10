@@ -1,0 +1,22 @@
+body {
+    /* прави бодито да долепи най в ляво страницата */
+    margin: 0%;
+    padding: 0%;
+    background-color: #CCCCCC;
+}
+
+
+section {
+    /* прави 20px отстояние отляво */
+    margin-left: 20px;
+}
+
+h1 {
+    /* променя размера на шрифта */
+    font-size: 28px;
+}
+
+.asd {
+    font-size: 24px;
+}
+
